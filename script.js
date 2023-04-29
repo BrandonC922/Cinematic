@@ -12,6 +12,16 @@ class Intro extends Phaser.Scene
     create()
     {
 
+        this.add.text(
+            0, //x
+            0,//y
+            "Click to move forward", //text
+            {
+                font: "40px Arial",
+                color: "#ADD8E6",
+            }, //style
+        );
+
         var sound = this.sound.add('LogoM');
         sound.play();
 
@@ -309,7 +319,7 @@ class SceneE extends Phaser.Scene
         this.tweens.add({
             targets: box,
             y: 700,
-            duration: 4000,
+            duration: 2000,
             hold: 500,
             repeatDelay: 500,
             ease: 'cubic.in'
