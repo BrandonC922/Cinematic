@@ -99,7 +99,7 @@ class SceneB extends Phaser.Scene
             "With immeasurable Power",
             {
                 font: "40px Arial",
-                color: "#ff7700",
+                color: "#ADD8E6",
             }, //style
         );
 
@@ -109,7 +109,7 @@ class SceneB extends Phaser.Scene
             "A bow", //text
             {
                 font: "40px Arial",
-                color: "#ff7700",
+                color: "#ADD8E6",
             }, //style
         );
 
@@ -172,7 +172,7 @@ class SceneC extends Phaser.Scene
             "With One Shot",
             {
                 font: "40px Arial",
-                color: "#ff7700",
+                color: "#1F51FF",
             }, //style
         );
 
@@ -182,7 +182,7 @@ class SceneC extends Phaser.Scene
             "A Dying Man", //text
             {
                 font: "40px Arial",
-                color: "#ff7700",
+                color: "#1F51FF",
             }, //style
         );
 
@@ -239,7 +239,7 @@ class SceneD extends Phaser.Scene
             "To Set Things Right", //text
             {
                 font: "40px Arial",
-                color: "#ff7700",
+                color: "#04D9FF",
             }, //style
         );
         
@@ -282,7 +282,7 @@ class SceneE extends Phaser.Scene
             "Play \nOptions\nCredits\nExit", //text
             {
                 font: "40px Arial",
-                color: "#ff7700",
+                color: "#FFFFFF",
             }, //style
         );
     
